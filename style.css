@@ -1,14 +1,7 @@
-.gridcontainer {
-    display: grid;
-    width: 500px;
-    background-color: blue;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px;
+div {
+    border: 3px black solid;
 }
-
-.griditem {
-    background-color: chartreuse;
-    font-size: 20px;
-    padding: 10px;
-    border: 1.5px solid black;
+.container {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr)
 }
